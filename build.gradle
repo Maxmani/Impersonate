@@ -39,9 +39,9 @@ dependencies {
     modIncludeApi libs.cca.base
     modIncludeImplementation libs.cca.entity
 
-    modCompileOnly (compatLibs.effective) {
-        transitive = false
-    }
+    //modCompileOnly (compatLibs.effective) {
+    //    transitive = false
+    //}
 
     modLocalImplementation libs.elmendorf
 
